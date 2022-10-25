@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 10px;
+    font-size: 0;
+    background-color: cornsilk;
+}
+
+h4 {
+    font-family: monospace;
+    font-size: 0.85rem;
+    text-align: center;
+    color: chocolate;
+    text-align: center;
+    user-select: none;
+}
+
+#container {
+    background-color: gold;
+    border: 30px solid gold;
+    border-radius: 15px;
+    width: 500px;
+    height: 600px;
+}
+
+#hero-image {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    user-select: none;
+    background-color: gold;
+}
+
+#menu-holder {
+    display: flex;
+    height: 100px;
+}
+
+.menu-item {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    background-color: cornsilk;
+    border-top: solid gold 4px;
+    border-bottom: solid gold 4px;
+    border-right: solid gold 2px;
+    border-left: solid gold 2px;
+    line-height: 50px;
+}
+
+.button:hover {
+    background-color: rgb(255, 220, 190);
+}
+
+.button:active {
+    background-color: rgb(253, 203, 203);
+}
+
+.selected {
+    background-color: rgb(253, 203, 203);
+}
